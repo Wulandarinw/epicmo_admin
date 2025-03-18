@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AdminLTE 3 | Dashboard</title>
+    <title>Epicmo Admin</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
@@ -1057,4 +1057,14 @@
     <script src="{{ asset('assets/dist/js/pages/dashboard.js') }}"></script>
 </body>
 
-</html>
+</html> --}}
+
+
+@extends('layouts.admin')
+
+@section('title', 'Dashboard')
+
+@section('content')
+    <h1>Dashboard</h1>
+    <p>Selamat datang di halaman dashboard.</p>
+@endsection
